@@ -17,7 +17,8 @@ export function handleAddTweet (text,replyingTo) {
         const {authedUser} = getState()
         dispatch(showLoading())
         return saveTweet({
-            text, author: authedUser,
+            text,
+            author: authedUser,
             replyingTo
         })
         .then((tweet)=> dispatch(addTweet(tweet)))
