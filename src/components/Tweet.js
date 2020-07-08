@@ -6,7 +6,7 @@ import {TiArrowBackOutline,TiHeartOutline,TiHeartFullOutline} from 'react-icons/
 class Tweet extends Component {
 
     handleLike = (e) => {
-        e.preventDefault
+        e.preventDefault()
         //todo: Handle Like Tweet
     }
 
